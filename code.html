@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Suyog Bala</title>
+
+    <!-- Bulma -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
+    <!-- Bulma Timeline -->
+    <link rel="stylesheet" href="css/bulma-timeline.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/716eac212d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/keyframes.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.42.4/tsparticles.min.js"></script>
+
+    <script>
+      tsParticles.loadJSON('particles', 'particles.json').then(function (p) {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
+
+    <div class="particles-container">
+      <div id="particles"></div>
+
+      <!-- Start -->
+      <section class="hero transparent-background is-fullheight">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <h5 class="subtitle hi reveal from-left">Hi! My name is</h5>
+            <h1 class="title name is-size-1 reveal from-left">SUYOG BALA</h1>
+
+            <p class="intro reveal from-right">
+              I'm currently pursuing my undergraduate degree in Computer Science at Howard Universtiy. I'm a sophomore international student from Nepal. 
+            </p>
+
+            <div class="is-container level-item reveal">
+              <a
+                class="icon bluebell icon-margin"
+                href="https://www.linkedin.com/in/suyog-bala-a96110244/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a
+                class="icon bluebell icon-margin"
+                href="https://github.com/suyogbala"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a
+                class="icon bluebell icon-margin"
+                href="https://app.joinhandshake.com/stu/users/42907214"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-hands-helping fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <h1 class="main-title reveal from-left">About Me</h1>
+
+            <div class="columns is-vcentered">
+              <div class="column is-two-thirds">
+                <p class="about-me-body reveal from-right">
+                  Hello, I am Suyog Bala, Computer Science student at Howard University. I am a sophomore international student form Nepal.
+                </p>
+
+                <p class="about-me-body reveal from-right">
+                  I am a Self-motivated, focused Computer Science undergraduate student looking for an summer 2024 internship to apply my theoretical knowledge and practical 
+                  skills gained through classrooms and projects. I believe my strong work ethic, time management, and fast learning skills strengthen my 
+                  ability to enhance the performance of the team and help me to build a long-term career in the field of Computer Science.
+                </p>
+
+                <p class="about-me-body reveal from-right">
+                  I am proficient in Python programming language, and I am more interested in critical thinking and solving
+                  the real-world problems. 
+                </p>
+
+                <p class="about-me-body reveal from-right">
+                </p>
+              </div>
+              <div class="column">
+                <figure class="image avatar reveal from-right">
+                  <img class="round" src="static/image.jpg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container is-max-desktop">
+          <div class="tile is-ancestor">
+            <!-- Languages -->
+            <div class="tile is-parent is-3">
+              <article class="tile is-child box transparent-background">
+                <div class="skills-container">
+                  <div class="reveal from-left">
+                    <i class="fas fa-code fa-2x"></i>
+                  </div>
+                  <div class="main-subtitle reveal from-left">Languages</div>
+                  <div class="languages">
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="python-color fab fa-python"></i>&nbsp;Python
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="js-color fab fa-js-square"></i>&nbsp;JavaScript
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="html-color fab fa-html5"></i>&nbsp;HTML
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="css-color fab fa-css3"></i>&nbsp;CSS
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Experience -->
+            <div class="tile is-parent is-6">
+              <article class="tile is-child box transparent-background">
+                <div class="skills-container">
+                  <div class="languages-icon">
+                    <div class="reveal">
+                      <i class="red fas fa-briefcase fa-2x"></i>
+                    </div>
+                    <div class="main-subtitle languages-icon reveal">
+                      Experience
+                    </div>
+                  </div>
+                </div>
+
+                <div class="timeline is-centered skills-item">
+                  <header class="timeline-header reveal">
+                    <span class="tag is-medium is-dark">2023</span>
+                  </header>
+
+                  <div class="timeline-item reveal from-right">
+                    <div class="timeline-marker is-light"></div>
+                    <div class="timeline-content">
+                      <i
+                        class="fa-brands fa-goldmansachs fa-2x timeline-icon goldmansachs-color"
+                      ></i>
+                      <p class="heading timeline-text-heading-left">
+                        MAY 2023 - JUNE 2023
+                      </p>
+                      <p class="timeline-text-body-left">
+                        Participant
+                      </p>
+                      <p class="salesforce-color timeline-text-body-left">
+                        @ Goldmansachs Virtual Insight Series
+                      </p>
+                      <div class="timeline-tags-left">
+                        <span class="tag is-dark">Interview Skills</span>
+                        <span class="tag is-dark">Networking</span>
+                        <span class="tag is-dark">Communication</span>
+                        <span class="tag is-dark">Technical Skills</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <header class="timeline-header reveal">
+                    <span class="tag is-medium is-dark">2021</span>
+                  </header>
+
+                  <div class="timeline-item reveal from-left">
+                    <div class="timeline-marker is-light"></div>
+                    <div class="timeline-content">
+                      <i
+                        class="fab fa-root Organization fa-2x timeline-icon root organization-color"
+                      ></i>
+                      <p class="heading timeline-text-heading-right">
+                        JUNE 2021 - AUGUST 2021
+                      </p>
+                      <p class="timeline-text-body-right">
+                        Tech Intern
+                      </p>
+                      <p class="amazon-color timeline-amazon-text-container">
+                        @ Root Organization
+                      </p>
+                      <!-- https://www.aboutamazon.com/ -->
+                      <div class="timeline-tags-left">
+                        <span class="tag is-dark">HTML</span>
+                        <span class="tag is-dark">CSS</span>
+                        <span class="tag is-dark">Java Script</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <header class="timeline-header reveal">
+                    <span class="tag is-medium is-dark">2020</span>
+                  </header>
+
+                  <div class="timeline-item reveal from-right">
+                    <div class="timeline-marker is-light"></div>
+                    <div class="timeline-content">
+                      <p class="heading timeline-text-heading-left">
+                        December 2020
+                      </p>
+                      <p class="timeline-text-body-left">
+                        Volunteer
+                      </p>
+                      <p class="timeline-text-body-left">
+                        <span class="rutgers-color">@ Google Developers Groups Kathmandu (GDG)</span>
+                      </p>
+                      <div class="timeline-tags-left">
+                        <span class="tag is-dark">Artificial Intelligence</span>
+                        <span class="tag is-dark">Web Development</span>
+                        <span class="tag is-dark">Flutter</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <h1 class="project-title reveal from-left">Projects</h1>
+
+            <div class="tile is-ancestor">
+              <!-- Real time Currency Converter -->
+              <div class="tile is-parent is-4 reveal">
+                <article class="tile is-child box gray-background">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64">
+                        <i class="fa-solid fa-coins fa-3x" style="color: #b51a00;"></i>
+                      </figure>
+                    </div>
+                    <div class="media-content project-links">
+                      <a
+                        class="icon"
+                        href="https://github.com/suyogbala/currency_converter"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github fa-lg"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-subtitle">Real time Currency Converter</p>
+                  <div class="project-meta">
+                    <span class="tag is-dark">Python</span>
+                    <span class="tag is-dark">Tkinter library</span>
+                    <span class="tag is-dark">RESTful API</span>
+                  </div>
+                  <div class="project-body">
+                    An app which allows user to exchange any currency in the world in the real time. The program uses the RESTful API to get the real time currency and implement it. 
+                  </div>
+                </article>
+              </div>
+
+              <!-- Wordle Project -->
+              <div class="tile is-parent is-4 reveal">
+                <article class="tile is-child box gray-background">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64">
+                        <i class="fa-brands fa-wordpress-simple fa-3x" style="color: #b51a00;"></i>
+                      </figure>
+                    </div>
+                    <div class="media-content project-links">
+                      <a
+                        class="icon"
+                        href="https://github.com/suyogbala/wordle"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github fa-lg"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-subtitle">Wordle</p>
+                  <div class="project-meta">
+                    <span class="tag is-dark">Python</span>
+                    <span class="tag is-dark">Colorama library</span>
+                    <span class="tag is-dark">Random Library</span>
+                  </div>
+                  <div class="project-body">
+                    A game which allows user to guess the word. If a guessed letter is in the same position as the corresponding letter in the hidden word, it is highlighted in green. If a guessed letter is part of the hidden word but in a different position, it's highlighted in yellow. Finally, if a guessed letter is not in the hidden word at all, it's indicated in red. 
+                </article>
+              </div>
+
+              <!-- Guess Number Project -->
+              <div class="tile is-parent is-4 reveal">
+                <article class="tile is-child box gray-background">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64">
+                        <i class="fa-solid fa-bars-progress fa-3x" style="color: #b51a00;"></i>
+                      </figure>
+                    </div>
+                    <div class="media-content project-links">
+                      <a
+                        class="icon"
+                        href="https://github.com/suyogbala/guess_number"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github fa-lg"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-subtitle">Guess Number</p>
+                  <div class="project-meta">
+                    <span class="tag is-dark">Python</span>
+                    <span class="tag is-dark">Random Library</span>
+                  </div>
+                  <div class="project-body">
+                    A game which asks user to guess a random number. If the guessed number is above the random number then it shows that the number is above, please guess below. And same as below.
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="tile is-ancestor">
+              <!-- Personal Website Project -->
+              <div class="tile is-parent is-4 reveal">
+                <article class="tile is-child box gray-background">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-64x64">
+                        <i class="fas fa-home fa-2x"></i>
+                      </figure>
+                    </div>
+                    <div class="media-content project-links">
+                      <a
+                        class="icon"
+                        href="https://github.com/suyogbala/portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github fa-lg"></i>
+                      </a>
+                      <a
+                        class="icon"
+                        href="https://suyogbala.netlify.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fas fa-external-link-square-alt fa-lg"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="project-subtitle">Personal Website</p>
+                  <div class="project-meta">
+                    <span class="tag is-dark">HTML</span>
+                    <span class="tag is-dark">CSS</span>
+                    <span class="tag is-dark">JavaScript</span>
+                  </div>
+                  <div class="project-body">
+                    My personal website
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <div class="reveal">
+              <a
+                class="button is-large resume-button"
+                href="static/rresume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="icon is-medium">
+                  <i class="fas fa-file"></i>
+                </span>
+                <span>Resume</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
